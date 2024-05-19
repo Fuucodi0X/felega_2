@@ -3,10 +3,12 @@
 import React, { useState, useRef } from 'react'
 import { MapContainer, TileLayer, Marker } from 'react-leaflet'
 import 'leaflet/dist/leaflet.css'
+//const [center, setCenter] = useState({lat:checkpoint[0].lat,lng:checkpoint[0].long})
 
-const Map2 = () => {
-  const [center, setCenter] = useState({ lat: -4.043477, lng: 39.668205 })
-  const ZOOM_LEVEL = 9
+const Map2 = ({checkpoint}) => {
+  console.log(checkpoint)
+  const [center, setCenter] = useState({lat:0,lng:0})
+  const ZOOM_kLEVEL = 9
 
   const mapRef = useRef()
 
