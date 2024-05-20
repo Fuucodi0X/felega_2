@@ -119,8 +119,15 @@
   }
 }
 .leaflet-container {
-  width: 100%;
+  width: 50%;
   height: 100vh;
   border-radius: 10px;
   z-index: 1;
+}
+
+.quest{
+  display:grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  justify-items: center;
+  align-items: center;
 }
