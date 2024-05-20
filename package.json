@@ -9,16 +9,18 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@apollo/client": "^3.10.4",
     "d3": "^7.9.0",
+    "graphql": "^16.8.1",
     "leaflet": "^1.9.4",
     "leaflet-defaulticon-compatibility": "^0.1.2",
     "next": "14.2.3",
     "react": "^18",
     "react-dom": "^18",
-    "react-globe": "^2.0.1",
     "react-leaflet": "^4.2.1"
   },
   "devDependencies": {
+    "daisyui": "^4.11.1",
     "eslint": "^8",
     "eslint-config-next": "14.2.3",
     "postcss": "^8",
